@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+ }
+ body{
+    background-color: rgb(214 198 225);
+    /* background-image: url("https://img.freepik.com/free-vector/technology-global-eath-concept-background_1017-33688.jpg?w=2000");  */
+ }
+ header{
+    color: rgb(56 12 132);
+    background-color: rgb(117 228 10);;
+    background-image: url("image-1-1900x100.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 50px;
+    padding-left: 50px;
+    font-size: 20px ;
+    font-style:oblique;
+ }
+ .navbar{
+    background-color: black;
+    border-radius: 5px;
+ }
+ .navbar ul{
+    overflow: auto;
+ }
+ .navbar li{
+    float: left;
+    list-style: none;
+    border-radius: 10px;
+    margin: 30px 20px;
+ }
+ .navbar li a{
+    color: white;
+    padding: 3px 3px;
+    text-decoration:none;
+    cursor:pointer;
+ }
+ .navbar li a:hover{
+    color:rgb(0, 255, 26)
+    
+ }
+ .navbar li a:visited{
+    color:blue
+ }
+ footer {
+    background-color: #333;
+    overflow: hidden;
+    float: bottom;
+    display: inline-flex;
+ }
+ .foot{
+    background-color: black;
+    border-radius: 5px;
+ }
+ .foot ul{
+    overflow: auto;
+ }
+ .foot li{
+    float: left;
+    list-style: none;
+    border-radius: 10px;
+    margin: 0px 28px;
+ }
+ .foot li a{
+    color: white;
+    padding: 0px 50px;
+    text-decoration:none;
+    cursor:pointer;
+ }
+ .foot li a:hover{
+    color:rgb(0, 255, 26)
+    
+ }
+ .foot li a:visited{
+    color:blue
+ }
+ .search{
+    float: right;
+    color: aliceblue;
+    padding: 3px 10px;
+    margin: 20px 5px;
+ }
+ .navbar input{
+    border: 2px solid black;
+    border-radius:5px;
+    padding: 3px 0px;
+ }
+ .footer{
+   border-style: ridge;
+    border-top-left-radius: 0px;
+    border-top-width: thick;
+    border-top-color: #ffd5d5;
+    background-color: #d8c7b2;
+    font-style: inherit;
+    font-family: fantasy;
+    width: 1000px;
+    height: auto;
+    padding-left: 0px;
+    margin: auto;
+    box-sizing: bor
+ }
+ .q{
+   border-style: solid;
+    background-color: white;
+    font-style: inherit;
+    font-family: monospace;
+    width: 1000px;
+    height: auto;
+    padding-left: 38px;
+    margin-top: -2px;
+    box-sizing: border-box;
+}
+}
+ footer {
+    background-color: rgb(214 198 225);
+    overflow: hidden;
+    float: bottom;
+    padding-top: 144px;
+ }
+ 
+ footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: bottom left;
+    color: white;
+ }

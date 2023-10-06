@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    <link href="sidePage.css" rel="stylesheet">
+</head>
+<body>
+    <form action="">
+        <h1>Doogle Payment Secure Payment</h1>
+        <p><i>Required informaton are followed by *</i></p>
+        <h2>Personal Information</h2>
+        <label for="name" >Name*</label>
+        <input type="text" name="name" id="name" required>
+        <label for="mobile">Mobile No.</label>
+        <input type="int" name="mobile" id="mobile">
+        <p>
+            <fieldset>  <!--close inside the box-->
+                <legend>Gender</legend> <br>
+                Female<input type="radio" name="gender" id="female">
+                Male<input type="radio" name="gender" id="male">
+                Other<input type="radio" name="gender" id="other">
+            </fieldset>
+        </p>
+        <p>Address<textarea name="address" id="address" cols="100" rows="8"></textarea>  </p>
+        <p>Email Address*<input type="email" name="email" id="email" required> </p>
+        <h2>Bank detail</h2>
+        <p>Card Type
+            <select>
+                <option value="">--select card type--</option>
+                <option value="SBI">SBI</option>
+                <option value="BOI">BOI</option>
+                <option value="PNB">PNB</option>
+            </select>
+        </p>
+        <p>Account No.*<input type="number" name="accountNO" id="accountNo" required> </p> <!--p,div is block element-->
+        <p>CVV<input type="password" name="cvv" id="cvv"> </p><!--span,strong is enline element-->
+        <label for="exdate" >Expiry Date</label>
+        <input type="date" name="exDate" id="exdate">
+        <br><br>
+        <input type="submit" value="Pay Now"><input type="reset" value="Reset">
+    </form>
+</body>
+</html>
